@@ -1,6 +1,6 @@
 const arr = [1, 2, 3, 4, 5,6,7,8,9,10];
 
-const reverseArray = (arr) => {
+const reverseArr = (arr) => {
   const reverseArray = [];
   for (let i = arr.length - 1; i >= 0; i--) {
     reverseArray.push(arr[i])
@@ -8,7 +8,7 @@ const reverseArray = (arr) => {
   return reverseArray
 };
 
-const result = reverseArray(arr);
+const result = reverseArr(arr);
 console.log(result);
 
 //Second 
